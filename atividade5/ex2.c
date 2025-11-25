@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 void correlacaobinaria(int n) {
     if (n > 0) {

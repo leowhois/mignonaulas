@@ -1,13 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
 
 void correlacaobinaria(int n) {
     if (n > 0) {
         correlacaobinaria(n/2);
         printf("%d", n % 2);
-    }
-    else {
-        return 0;
+    } else {
+        if (n == 0) {
+            printf("%d", n);
+        }
     }
 }
 int main() {
